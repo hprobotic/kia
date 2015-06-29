@@ -363,7 +363,7 @@ a.btn.next {
   height: 15px;
 }
 .navbar-mixed .navbar-nav a {
-  padding: 23px 30px;
+  padding: 24px 30px;
 }
 .navbar-mixed .navbar-nav {
   float: right;
@@ -446,4 +446,24 @@ padding: 0px;
 }
 .auto-item:hover .btn-group {
   display: block;
+}
+
+.navbar-mixed.nav>li>a:focus,.navbar-mixed .nav>li>a:hover {
+    background: #fff url(images/nav-bg.png) no-repeat bottom center;
+}
+.bootstrap-select {
+  width: 100% !important;
+  margin-bottom: 15px;
+}
+.bootstrap-select .dropdown-menu {
+  border-radius: 0px;
+}
+.bootstrap-select .popover-title {
+  color: #555
+}
+.btn-sl1 {
+  width: 100%;
+  border-radius: 0px;
+  color: #555555;
+  background: #e4e4e4;
 }

@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="assets/owl.carousel.css" />
     <link rel="stylesheet" href="assets/owl.theme.css" />
     <link rel="stylesheet" href="assets/owl.transitions.css" />
-
+    <link rel="stylesheet" href="assets/bootstrap-select.min.css">
     <!-- Optional theme -->
     <link rel="stylesheet" href="style.css">
     <!-- Main Style -->
@@ -174,7 +174,7 @@
 
 
     </div>
- 
+
   </div>
 </div>
         </div>
@@ -466,10 +466,20 @@
                                             <input type="text" class="form-control" placeholder="Địa chỉ">
                                         </div>
                                         <div class="col-md-6">
-                                            <input type="text" class="form-control" placeholder="Tỉnh/ Thành phố" autocomplete="off">
+
+                                            <select name="/" id=""  class="sl-1" data-style="btn-sl1" data-header="Tỉnh/ Thành phố">
+                                              <option value="/">Tỉnh/ Thành phố</option>
+                                              <option value=".">Hà Nội</option>
+                                              <optio>HCM</optio>
+                                            </select>
                                         </div>
                                         <div class="col-md-6">
-                                            <input type="text" class="form-control" placeholder="Chọn xe">
+
+                                            <select class="/" name="" class="sl-1" data-style="btn-sl1"  data-header="Chọn dòng xe">
+                                              <option value="/">Chọn dòng xe</option>
+                                              <option value="option">Dòng 1</option>
+                                              <option value="option">Dòng 2</option>
+                                            </select>
                                         </div>
                                         <div class="col-md-4 col-md-offset-8">
                                             <div class="btn btn-default btn-fw btn-kia">Đăng ký <i class="fa fa-angle-right"></i></div>
@@ -486,8 +496,10 @@
                 <div class="find-box">
             <h1>Hệ thống phân phối</h1>
             <p>Chọn khu vực cần tìm</p>
-            <select name="/" id="">
+            <select class="/" name="" class="sl-1" data-style="btn-sl1"  data-header="Chọn khu vực">
                 <option value="0">Tất cả</option>
+                <option value="0">Miền Bắc</option>
+                <option value="0">Miền Nam</option>
             </select>
         </div>
             </div>
@@ -731,6 +743,7 @@ $(document).ready(function() {
   });
 
 });
+$('select').selectpicker();
 </script>
 </body>
 
