@@ -5,9 +5,9 @@ body {
     line-height: 1.5;
     _background: url(images/pagebg.jpg) no-repeat top center;
 
-    max-width: 1450px;
     margin: 0 auto;
     position: relative;
+    padding-left: 90px;
     overflow-x: hidden;
 }
 .overflow-x {
@@ -36,12 +36,12 @@ a:hover {
 }
 .left-bar {
 
-    left: -90px;
+    left: 00px;
     top: 0;
     width: 90px;
     height: 100%;
     padding-top: 70px;
-    position: absolute;
+    position: fixed;
     background: #fff;
     z-index: 3;
     background: #fff;
@@ -467,12 +467,12 @@ padding: 0px;
   color: #555555;
   background: #e4e4e4;
 }
-.bootstrap-select.btn-group .dropdown-toggle .caret {
+.bootstrap-select.btn-group .dropdown-toggle .caretx {
   position: relative;
 }
-.bootstrap-select.btn-group .dropdown-toggle .caret .fa-fw {
+.bootstrap-select.btn-group .dropdown-toggle .caretx .fa-fw {
   position: absolute;
-  left: 0px;
+  left: -13px;
+  top: -6px;
   font-size: 30px;
-
 }
