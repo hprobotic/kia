@@ -467,3 +467,12 @@ padding: 0px;
   color: #555555;
   background: #e4e4e4;
 }
+.bootstrap-select.btn-group .dropdown-toggle .caret {
+  position: relative;
+}
+.bootstrap-select.btn-group .dropdown-toggle .caret .fa-fw {
+  position: absolute;
+  left: 0px;
+  font-size: 30px;
+
+}
