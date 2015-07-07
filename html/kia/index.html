@@ -2,11 +2,15 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
   <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+<meta content="width=device-width, initial-scale=1" name="viewport">
   <title>KIA 2015</title>
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
   <!-- Optional theme -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+  <!-- Roboto Font -->
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,vietnamese' rel='stylesheet' type='text/css'>
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <!-- Owl Carousel -->
@@ -14,8 +18,7 @@
   <link rel="stylesheet" href="assets/owl.theme.css" />
   <link rel="stylesheet" href="assets/owl.transitions.css" />
   <link rel="stylesheet" href="assets/bootstrap-select.min.css">
-  <!-- Optional theme -->
-  <link rel="stylesheet" href="style.css">
+
   <!-- Main Style -->
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
@@ -23,6 +26,15 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
   <!-- Scroll  -->
   <link rel="stylesheet" href="assets/scroll/scrolling-nav.css">
+  <!-- jQuery UI -->
+  <link rel="stylesheet" href="assets/jqueryui/jquery-ui.min.css">
+  <script src="assets/jqueryui/external/jquery/jquery.js"></script>
+  <script src="assets/jqueryui/jquery-ui.min.js"></script>
+  <!-- Custom File -->
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Responsive -->
+  <link rel="stylesheet" href="responsive.css">
   <script src="assets/js/addon.js"></script>
   <script src="assets/scroll/scrolling-nav.js"></script>
   <script src="assets/scroll/jquery.easing.min.js"></script>
@@ -35,6 +47,9 @@
         <nav class="navbar navbar-mixed navbar-fixed-top ">
           <div class="wide container">
             <!-- Brand and toggle get grouped for better mobile display -->
+            <a class="navbar-brand m-only" href="#">
+              <img alt="KIA 2015" src="images/logo.jpg">
+            </a>
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span>
@@ -42,28 +57,36 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="#">
-                <img alt="KIA 2015" src="images/logo.jpg">
-              </a>
+
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav">
+                <li class ="brand-logo">
+                  <a class="navbar-brand" href="#">
+                    <img alt="KIA 2015" src="images/logo.jpg">
+                  </a>
+                </li>
                 <li><a href="#">Sản phẩm</a>
                   <div class="sub-menu">
                     <div class="fluid container">
                       <div class="row">
+                        <div id="menu-tabs" class="clearfix">
+
+
+
+
                         <div class="col-md-3">
                           <div class="list-menu">
                             <ul class="list-unstyled">
-                              <li><a href="/">Sedan</a></li>
-                              <li><a href="/">Hatchback</a></li>
-                              <li><a href="/">SUV & MPV</a></li>
+                              <li><a href="#list-p-1">Sedan</a></li>
+                              <li><a href="#list-p-2">Hatchback</a></li>
+                              <li><a href="#list-p-3">SUV & MPV</a></li>
                             </ul>
                           </div>
                         </div>
                         <div class="col-md-9">
-                          <div class="list-product clearfix">
+                          <div class="list-product clearfix" id="list-p-1">
                             <div class="item">
                               <div class="auto-item">
                                 <a href="/">
@@ -161,6 +184,205 @@
                               </div>
                             </div>
                           </div>
+                          <div class="list-product clearfix" id="list-p-2">
+                            <div class="item">
+                              <div class="auto-item">
+                                <a href="/">
+                                  <div class="auto-img">
+                                    <img src="images/auto1.png" alt="">
+                                  </div>
+                                  <div class="auto-info">
+                                    <h4>Optima</h4>
+                                    <p>Refreshed and Refined</p>
+                                    <P>
+                                      Giá từ: 950.000.000đ
+                                    </P>
+                                  </div>
+                                  <div class="btn-group">
+                                    <div class="btn btn-kia btn-arow">
+                                      Khám phá
+                                    </div>
+                                    <div class="btn btn-kia">
+                                      Lái thử
+                                    </div>
+                                  </div>
+                                </a>
+                              </div>
+                            </div>
+                            <div class="item">
+                              <div class="auto-item">
+                                <a href="/">
+                                  <div class="auto-img">
+                                    <img src="images/auto1.png" alt="">
+                                  </div>
+                                  <div class="auto-info">
+                                    <h4>Optima</h4>
+                                    <p>Refreshed and Refined</p>
+                                    <P>
+                                      Giá từ: 950.000.000đ
+                                    </P>
+                                  </div>
+                                  <div class="btn-group">
+                                    <div class="btn btn-kia btn-arow">
+                                      Khám phá
+                                    </div>
+                                    <div class="btn btn-kia">
+                                      Lái thử
+                                    </div>
+                                  </div>
+                                </a>
+                              </div>
+                            </div>
+                            <div class="item">
+                              <div class="auto-item">
+                                <a href="/">
+                                  <div class="auto-img">
+                                    <img src="images/auto1.png" alt="">
+                                  </div>
+                                  <div class="auto-info">
+                                    <h4>Optima</h4>
+                                    <p>Refreshed and Refined</p>
+                                    <P>
+                                      Giá từ: 950.000.000đ
+                                    </P>
+                                  </div>
+                                  <div class="btn-group">
+                                    <div class="btn btn-kia btn-arow">
+                                      Khám phá
+                                    </div>
+                                    <div class="btn btn-kia">
+                                      Lái thử
+                                    </div>
+                                  </div>
+                                </a>
+                              </div>
+                            </div>
+                            <div class="item">
+                              <div class="auto-item">
+                                <a href="/">
+                                  <div class="auto-img">
+                                    <img src="images/auto1.png" alt="">
+                                  </div>
+                                  <div class="auto-info">
+                                    <h4>Optima</h4>
+                                    <p>Refreshed and Refined</p>
+                                    <P>
+                                      Giá từ: 950.000.000đ
+                                    </P>
+                                  </div>
+                                  <div class="btn-group">
+                                    <div class="btn btn-kia btn-arow">
+                                      Khám phá
+                                    </div>
+                                    <div class="btn btn-kia">
+                                      Lái thử
+                                    </div>
+                                  </div>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="list-product clearfix" id="list-p-3">
+                            <div class="item">
+                              <div class="auto-item">
+                                <a href="/">
+                                  <div class="auto-img">
+                                    <img src="images/auto1.png" alt="">
+                                  </div>
+                                  <div class="auto-info">
+                                    <h4>Optima</h4>
+                                    <p>Refreshed and Refined</p>
+                                    <P>
+                                      Giá từ: 950.000.000đ
+                                    </P>
+                                  </div>
+                                  <div class="btn-group">
+                                    <div class="btn btn-kia btn-arow">
+                                      Khám phá
+                                    </div>
+                                    <div class="btn btn-kia">
+                                      Lái thử
+                                    </div>
+                                  </div>
+                                </a>
+                              </div>
+                            </div>
+                            <div class="item">
+                              <div class="auto-item">
+                                <a href="/">
+                                  <div class="auto-img">
+                                    <img src="images/auto1.png" alt="">
+                                  </div>
+                                  <div class="auto-info">
+                                    <h4>Optima</h4>
+                                    <p>Refreshed and Refined</p>
+                                    <P>
+                                      Giá từ: 950.000.000đ
+                                    </P>
+                                  </div>
+                                  <div class="btn-group">
+                                    <div class="btn btn-kia btn-arow">
+                                      Khám phá
+                                    </div>
+                                    <div class="btn btn-kia">
+                                      Lái thử
+                                    </div>
+                                  </div>
+                                </a>
+                              </div>
+                            </div>
+                            <div class="item">
+                              <div class="auto-item">
+                                <a href="/">
+                                  <div class="auto-img">
+                                    <img src="images/auto1.png" alt="">
+                                  </div>
+                                  <div class="auto-info">
+                                    <h4>Optima</h4>
+                                    <p>Refreshed and Refined</p>
+                                    <P>
+                                      Giá từ: 950.000.000đ
+                                    </P>
+                                  </div>
+                                  <div class="btn-group">
+                                    <div class="btn btn-kia btn-arow">
+                                      Khám phá
+                                    </div>
+                                    <div class="btn btn-kia">
+                                      Lái thử
+                                    </div>
+                                  </div>
+                                </a>
+                              </div>
+                            </div>
+                            <div class="item">
+                              <div class="auto-item">
+                                <a href="/">
+                                  <div class="auto-img">
+                                    <img src="images/auto1.png" alt="">
+                                  </div>
+                                  <div class="auto-info">
+                                    <h4>Optima</h4>
+                                    <p>Refreshed and Refined</p>
+                                    <P>
+                                      Giá từ: 950.000.000đ
+                                    </P>
+                                  </div>
+                                  <div class="btn-group">
+                                    <div class="btn btn-kia btn-arow">
+                                      Khám phá
+                                    </div>
+                                    <div class="btn btn-kia">
+                                      Lái thử
+                                    </div>
+                                  </div>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+
+                        </div>
+
                         </div>
                       </div>
                     </div>
@@ -222,6 +444,37 @@
     <div class="main-slider">
       <div id="main-slider" class="owl-carousel owl-theme">
         <div class="item">
+          <div class="slider-info">
+            <p><img src="images/opt.png" alt=""></p>
+            <h1>Refreshed and Refined</h1>
+            <h3>Giá tham khảo: <span class="price">950.000.000</span>
+              VND
+              </h3>
+
+            <ul class="list-inline list-q-link">
+              <li>
+                <a href="/">
+                <i class="fa fa-key"></i>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                <i class="fa fa-map-marker"></i>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                <i class="fa fa-calculator"></i>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                <i class="fa fa-book"></i>
+                </a>
+              </li>
+            </ul>
+            <a class="btn btn-default col-md-6   btn-kia" href="/">Khám phá <i class="fa fa-angle-right"></i></a>
+          </div>
           <img src="images/main-slider.jpg" alt="Slider 1">
         </div>
         <div class="item">
@@ -238,182 +491,538 @@
     <div class="m-section" id="sanpham">
       <div class="container">
         <div id="product-slider" class="m-section">
-          <h1 class="section-title">Sản phẩm</h1>
-          <ul class="nav nav-pills product-cat">
-            <li><a href="#">Hatchback</a></li>
-            <li class="active"><a href="#">Sedan</a></li>
-            <li><a href="#">SUV & MPV</a></li>
-          </ul>
+          <div id="product-tabs">
+              <h1 class="section-title">Sản phẩm</h1>
+  <ul class="nav nav-pills product-cat">
+    <li><a href="#product-cat1"><span>Hatchback</span></a></li>
+    <li><a href="#product-cat2"><span>Sedan</span></a></li>
+    <li><a href="#product-cat3"><span>SUV & MPV</span></a></li>
+  </ul>
+
+
+
+
+
+
           <div class="relative">
-            <div id="owl-demo" class="owl-carousel owl-theme">
-              <div class="item">
-                <div class="auto-item">
-                  <div class="auto-img">
-                    <img src="images/auto1.png" alt="">
+            <div id="product-cat1">
+              <div id="owl-demo1" class="owl-carousel owl-theme">
+                <div class="item">
+                  <div class="auto-item">
+                    <div class="auto-img">
+                      <img src="images/auto1.png" alt="">
+                    </div>
+                    <div class="auto-info">
+                      <h4>Optima</h4>
+                      <p>Refreshed and Refined</p>
+                      <P>
+                        Giá từ: 950.000.000đ
+                      </P>
+                    </div>
                   </div>
-                  <div class="auto-info">
-                    <h4>Optima</h4>
-                    <p>Refreshed and Refined</p>
-                    <P>
-                      Giá từ: 950.000.000đ
-                    </P>
+                </div>
+                <div class="item">
+                  <div class="auto-item">
+                    <div class="auto-img">
+                      <img src="images/auto1.png" alt="">
+                    </div>
+                    <div class="auto-info">
+                      <h4>Optima</h4>
+                      <p>Refreshed and Refined</p>
+                      <P>
+                        Giá từ: 950.000.000đ
+                      </P>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="auto-item">
+                    <div class="auto-img">
+                      <img src="images/auto1.png" alt="">
+                    </div>
+                    <div class="auto-info">
+                      <h4>Optima</h4>
+                      <p>Refreshed and Refined</p>
+                      <P>
+                        Giá từ: 950.000.000đ
+                      </P>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="auto-item">
+                    <div class="auto-img">
+                      <img src="images/auto1.png" alt="">
+                    </div>
+                    <div class="auto-info">
+                      <h4>Optima</h4>
+                      <p>Refreshed and Refined</p>
+                      <P>
+                        Giá từ: 950.000.000đ
+                      </P>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="auto-item">
+                    <div class="auto-img">
+                      <img src="images/auto1.png" alt="">
+                    </div>
+                    <div class="auto-info">
+                      <h4>Optima</h4>
+                      <p>Refreshed and Refined</p>
+                      <P>
+                        Giá từ: 950.000.000đ
+                      </P>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="auto-item">
+                    <div class="auto-img">
+                      <img src="images/auto1.png" alt="">
+                    </div>
+                    <div class="auto-info">
+                      <h4>Optima</h4>
+                      <p>Refreshed and Refined</p>
+                      <P>
+                        Giá từ: 950.000.000đ
+                      </P>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="auto-item">
+                    <div class="auto-img">
+                      <img src="images/auto1.png" alt="">
+                    </div>
+                    <div class="auto-info">
+                      <h4>Optima</h4>
+                      <p>Refreshed and Refined</p>
+                      <P>
+                        Giá từ: 950.000.000đ
+                      </P>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="auto-item">
+                    <div class="auto-img">
+                      <img src="images/auto1.png" alt="">
+                    </div>
+                    <div class="auto-info">
+                      <h4>Optima</h4>
+                      <p>Refreshed and Refined</p>
+                      <P>
+                        Giá từ: 950.000.000đ
+                      </P>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="auto-item">
+                    <div class="auto-img">
+                      <img src="images/auto1.png" alt="">
+                    </div>
+                    <div class="auto-info">
+                      <h4>Optima</h4>
+                      <p>Refreshed and Refined</p>
+                      <P>
+                        Giá từ: 950.000.000đ
+                      </P>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="auto-item">
+                    <div class="auto-img">
+                      <img src="images/auto1.png" alt="">
+                    </div>
+                    <div class="auto-info">
+                      <h4>Optima</h4>
+                      <p>Refreshed and Refined</p>
+                      <P>
+                        Giá từ: 950.000.000đ
+                      </P>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="auto-item">
+                    <div class="auto-img">
+                      <img src="images/auto1.png" alt="">
+                    </div>
+                    <div class="auto-info">
+                      <h4>Optima</h4>
+                      <p>Refreshed and Refined</p>
+                      <P>
+                        Giá từ: 950.000.000đ
+                      </P>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="auto-item">
+                    <div class="auto-img">
+                      <img src="images/auto1.png" alt="">
+                    </div>
+                    <div class="auto-info">
+                      <h4>Optima</h4>
+                      <p>Refreshed and Refined</p>
+                      <P>
+                        Giá từ: 950.000.000đ
+                      </P>
+                    </div>
                   </div>
                 </div>
               </div>
-              <div class="item">
-                <div class="auto-item">
-                  <div class="auto-img">
-                    <img src="images/auto1.png" alt="">
+
+            </div>
+            <div id="product-cat2">
+              <div id="owl-demo2" class="owl-carousel owl-theme">
+                <div class="item">
+                  <div class="auto-item">
+                    <div class="auto-img">
+                      <img src="images/auto1.png" alt="">
+                    </div>
+                    <div class="auto-info">
+                      <h4>Optima</h4>
+                      <p>Refreshed and Refined</p>
+                      <P>
+                        Giá từ: 950.000.000đ
+                      </P>
+                    </div>
                   </div>
-                  <div class="auto-info">
-                    <h4>Optima</h4>
-                    <p>Refreshed and Refined</p>
-                    <P>
-                      Giá từ: 950.000.000đ
-                    </P>
+                </div>
+                <div class="item">
+                  <div class="auto-item">
+                    <div class="auto-img">
+                      <img src="images/auto1.png" alt="">
+                    </div>
+                    <div class="auto-info">
+                      <h4>Optima</h4>
+                      <p>Refreshed and Refined</p>
+                      <P>
+                        Giá từ: 950.000.000đ
+                      </P>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="auto-item">
+                    <div class="auto-img">
+                      <img src="images/auto1.png" alt="">
+                    </div>
+                    <div class="auto-info">
+                      <h4>Optima</h4>
+                      <p>Refreshed and Refined</p>
+                      <P>
+                        Giá từ: 950.000.000đ
+                      </P>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="auto-item">
+                    <div class="auto-img">
+                      <img src="images/auto1.png" alt="">
+                    </div>
+                    <div class="auto-info">
+                      <h4>Optima</h4>
+                      <p>Refreshed and Refined</p>
+                      <P>
+                        Giá từ: 950.000.000đ
+                      </P>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="auto-item">
+                    <div class="auto-img">
+                      <img src="images/auto1.png" alt="">
+                    </div>
+                    <div class="auto-info">
+                      <h4>Optima</h4>
+                      <p>Refreshed and Refined</p>
+                      <P>
+                        Giá từ: 950.000.000đ
+                      </P>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="auto-item">
+                    <div class="auto-img">
+                      <img src="images/auto1.png" alt="">
+                    </div>
+                    <div class="auto-info">
+                      <h4>Optima</h4>
+                      <p>Refreshed and Refined</p>
+                      <P>
+                        Giá từ: 950.000.000đ
+                      </P>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="auto-item">
+                    <div class="auto-img">
+                      <img src="images/auto1.png" alt="">
+                    </div>
+                    <div class="auto-info">
+                      <h4>Optima</h4>
+                      <p>Refreshed and Refined</p>
+                      <P>
+                        Giá từ: 950.000.000đ
+                      </P>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="auto-item">
+                    <div class="auto-img">
+                      <img src="images/auto1.png" alt="">
+                    </div>
+                    <div class="auto-info">
+                      <h4>Optima</h4>
+                      <p>Refreshed and Refined</p>
+                      <P>
+                        Giá từ: 950.000.000đ
+                      </P>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="auto-item">
+                    <div class="auto-img">
+                      <img src="images/auto1.png" alt="">
+                    </div>
+                    <div class="auto-info">
+                      <h4>Optima</h4>
+                      <p>Refreshed and Refined</p>
+                      <P>
+                        Giá từ: 950.000.000đ
+                      </P>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="auto-item">
+                    <div class="auto-img">
+                      <img src="images/auto1.png" alt="">
+                    </div>
+                    <div class="auto-info">
+                      <h4>Optima</h4>
+                      <p>Refreshed and Refined</p>
+                      <P>
+                        Giá từ: 950.000.000đ
+                      </P>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="auto-item">
+                    <div class="auto-img">
+                      <img src="images/auto1.png" alt="">
+                    </div>
+                    <div class="auto-info">
+                      <h4>Optima</h4>
+                      <p>Refreshed and Refined</p>
+                      <P>
+                        Giá từ: 950.000.000đ
+                      </P>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="auto-item">
+                    <div class="auto-img">
+                      <img src="images/auto1.png" alt="">
+                    </div>
+                    <div class="auto-info">
+                      <h4>Optima</h4>
+                      <p>Refreshed and Refined</p>
+                      <P>
+                        Giá từ: 950.000.000đ
+                      </P>
+                    </div>
                   </div>
                 </div>
               </div>
-              <div class="item">
-                <div class="auto-item">
-                  <div class="auto-img">
-                    <img src="images/auto1.png" alt="">
+
+            </div>
+            <div id="product-cat3">
+              <div id="owl-demo3" class="owl-carousel owl-theme">
+                <div class="item">
+                  <div class="auto-item">
+                    <div class="auto-img">
+                      <img src="images/auto1.png" alt="">
+                    </div>
+                    <div class="auto-info">
+                      <h4>Optima</h4>
+                      <p>Refreshed and Refined</p>
+                      <P>
+                        Giá từ: 950.000.000đ
+                      </P>
+                    </div>
                   </div>
-                  <div class="auto-info">
-                    <h4>Optima</h4>
-                    <p>Refreshed and Refined</p>
-                    <P>
-                      Giá từ: 950.000.000đ
-                    </P>
+                </div>
+                <div class="item">
+                  <div class="auto-item">
+                    <div class="auto-img">
+                      <img src="images/auto1.png" alt="">
+                    </div>
+                    <div class="auto-info">
+                      <h4>Optima</h4>
+                      <p>Refreshed and Refined</p>
+                      <P>
+                        Giá từ: 950.000.000đ
+                      </P>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="auto-item">
+                    <div class="auto-img">
+                      <img src="images/auto1.png" alt="">
+                    </div>
+                    <div class="auto-info">
+                      <h4>Optima</h4>
+                      <p>Refreshed and Refined</p>
+                      <P>
+                        Giá từ: 950.000.000đ
+                      </P>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="auto-item">
+                    <div class="auto-img">
+                      <img src="images/auto1.png" alt="">
+                    </div>
+                    <div class="auto-info">
+                      <h4>Optima</h4>
+                      <p>Refreshed and Refined</p>
+                      <P>
+                        Giá từ: 950.000.000đ
+                      </P>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="auto-item">
+                    <div class="auto-img">
+                      <img src="images/auto1.png" alt="">
+                    </div>
+                    <div class="auto-info">
+                      <h4>Optima</h4>
+                      <p>Refreshed and Refined</p>
+                      <P>
+                        Giá từ: 950.000.000đ
+                      </P>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="auto-item">
+                    <div class="auto-img">
+                      <img src="images/auto1.png" alt="">
+                    </div>
+                    <div class="auto-info">
+                      <h4>Optima</h4>
+                      <p>Refreshed and Refined</p>
+                      <P>
+                        Giá từ: 950.000.000đ
+                      </P>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="auto-item">
+                    <div class="auto-img">
+                      <img src="images/auto1.png" alt="">
+                    </div>
+                    <div class="auto-info">
+                      <h4>Optima</h4>
+                      <p>Refreshed and Refined</p>
+                      <P>
+                        Giá từ: 950.000.000đ
+                      </P>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="auto-item">
+                    <div class="auto-img">
+                      <img src="images/auto1.png" alt="">
+                    </div>
+                    <div class="auto-info">
+                      <h4>Optima</h4>
+                      <p>Refreshed and Refined</p>
+                      <P>
+                        Giá từ: 950.000.000đ
+                      </P>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="auto-item">
+                    <div class="auto-img">
+                      <img src="images/auto1.png" alt="">
+                    </div>
+                    <div class="auto-info">
+                      <h4>Optima</h4>
+                      <p>Refreshed and Refined</p>
+                      <P>
+                        Giá từ: 950.000.000đ
+                      </P>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="auto-item">
+                    <div class="auto-img">
+                      <img src="images/auto1.png" alt="">
+                    </div>
+                    <div class="auto-info">
+                      <h4>Optima</h4>
+                      <p>Refreshed and Refined</p>
+                      <P>
+                        Giá từ: 950.000.000đ
+                      </P>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="auto-item">
+                    <div class="auto-img">
+                      <img src="images/auto1.png" alt="">
+                    </div>
+                    <div class="auto-info">
+                      <h4>Optima</h4>
+                      <p>Refreshed and Refined</p>
+                      <P>
+                        Giá từ: 950.000.000đ
+                      </P>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="auto-item">
+                    <div class="auto-img">
+                      <img src="images/auto1.png" alt="">
+                    </div>
+                    <div class="auto-info">
+                      <h4>Optima</h4>
+                      <p>Refreshed and Refined</p>
+                      <P>
+                        Giá từ: 950.000.000đ
+                      </P>
+                    </div>
                   </div>
                 </div>
               </div>
-              <div class="item">
-                <div class="auto-item">
-                  <div class="auto-img">
-                    <img src="images/auto1.png" alt="">
-                  </div>
-                  <div class="auto-info">
-                    <h4>Optima</h4>
-                    <p>Refreshed and Refined</p>
-                    <P>
-                      Giá từ: 950.000.000đ
-                    </P>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="auto-item">
-                  <div class="auto-img">
-                    <img src="images/auto1.png" alt="">
-                  </div>
-                  <div class="auto-info">
-                    <h4>Optima</h4>
-                    <p>Refreshed and Refined</p>
-                    <P>
-                      Giá từ: 950.000.000đ
-                    </P>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="auto-item">
-                  <div class="auto-img">
-                    <img src="images/auto1.png" alt="">
-                  </div>
-                  <div class="auto-info">
-                    <h4>Optima</h4>
-                    <p>Refreshed and Refined</p>
-                    <P>
-                      Giá từ: 950.000.000đ
-                    </P>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="auto-item">
-                  <div class="auto-img">
-                    <img src="images/auto1.png" alt="">
-                  </div>
-                  <div class="auto-info">
-                    <h4>Optima</h4>
-                    <p>Refreshed and Refined</p>
-                    <P>
-                      Giá từ: 950.000.000đ
-                    </P>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="auto-item">
-                  <div class="auto-img">
-                    <img src="images/auto1.png" alt="">
-                  </div>
-                  <div class="auto-info">
-                    <h4>Optima</h4>
-                    <p>Refreshed and Refined</p>
-                    <P>
-                      Giá từ: 950.000.000đ
-                    </P>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="auto-item">
-                  <div class="auto-img">
-                    <img src="images/auto1.png" alt="">
-                  </div>
-                  <div class="auto-info">
-                    <h4>Optima</h4>
-                    <p>Refreshed and Refined</p>
-                    <P>
-                      Giá từ: 950.000.000đ
-                    </P>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="auto-item">
-                  <div class="auto-img">
-                    <img src="images/auto1.png" alt="">
-                  </div>
-                  <div class="auto-info">
-                    <h4>Optima</h4>
-                    <p>Refreshed and Refined</p>
-                    <P>
-                      Giá từ: 950.000.000đ
-                    </P>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="auto-item">
-                  <div class="auto-img">
-                    <img src="images/auto1.png" alt="">
-                  </div>
-                  <div class="auto-info">
-                    <h4>Optima</h4>
-                    <p>Refreshed and Refined</p>
-                    <P>
-                      Giá từ: 950.000.000đ
-                    </P>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="auto-item">
-                  <div class="auto-img">
-                    <img src="images/auto1.png" alt="">
-                  </div>
-                  <div class="auto-info">
-                    <h4>Optima</h4>
-                    <p>Refreshed and Refined</p>
-                    <P>
-                      Giá từ: 950.000.000đ
-                    </P>
-                  </div>
-                </div>
-              </div>
+
             </div>
             <div class="customNavigation">
               <a class="btn prev">
@@ -422,6 +1031,7 @@
               <a class="btn next">
                 <i class="fa fa-angle-right"></i>
               </a>
+            </div>
             </div>
           </div>
         </div>
@@ -438,33 +1048,33 @@
           </p>
           <form role="form" class="reg-form">
             <div class="row">
-              <div class="col-md-6">
+              <div class="col-md-6 col-xs-6 col-sm-6">
                 <input type="text" class="form-control" placeholder="Họ và tên" autocomplete="off">
               </div>
-              <div class="col-md-6">
+              <div class="col-md-6 col-xs-6 col-sm-6">
                 <input type="text" class="form-control" placeholder="Số điện thoại">
               </div>
-              <div class="col-md-6">
+              <div class="col-md-6 col-xs-6 col-sm-6">
                 <input type="text" class="form-control" placeholder="Email" autocomplete="off">
               </div>
-              <div class="col-md-6">
+              <div class="col-md-6 col-xs-6 col-sm-6">
                 <input type="text" class="form-control" placeholder="Địa chỉ">
               </div>
-              <div class="col-md-6">
+              <div class="col-md-6 col-xs-6 col-sm-6">
                 <select name="/" id="" class="sl-1" data-style="btn-sl1" data-header="Tỉnh/ Thành phố">
                   <option value="/">Tỉnh/ Thành phố</option>
                   <option value=".">Hà Nội</option>
                   <optio>HCM</optio>
                 </select>
               </div>
-              <div class="col-md-6">
+              <div class="col-md-6 col-xs-6 col-sm-6">
                 <select class="/" name="" class="sl-1" data-style="btn-sl1" data-header="Chọn dòng xe">
                   <option value="/">Chọn dòng xe</option>
                   <option value="option">Dòng 1</option>
                   <option value="option">Dòng 2</option>
                 </select>
               </div>
-              <div class="col-md-4 col-md-offset-8">
+              <div class="col-md-4 col-md-offset-8 col-xs-6 col-xs-offset-6">
                 <div class="btn btn-default btn-fw btn-kia">Đăng ký <i class="fa fa-angle-right"></i></div>
               </div>
             </div>
@@ -476,13 +1086,15 @@
       <div class="container">
         <div class="row">
           <div class="find-box">
-            <h1>Hệ thống phân phối</h1>
-            <p>Chọn khu vực cần tìm</p>
-            <select class="/" name="" class="sl-1" data-style="btn-sl1" multiple title='Chọn khu vực...'>
-              <option value="0">Tất cả</option>
-              <option value="0">Miền Bắc</option>
-              <option value="0">Miền Nam</option>
-            </select>
+            <div class="col-md-12">
+              <h1>Hệ thống phân phối</h1>
+              <p>Chọn khu vực cần tìm</p>
+              <select class="/" name="" class="sl-1" data-style="btn-sl1" multiple title='Chọn khu vực...'>
+                <option value="0">Tất cả</option>
+                <option value="0">Miền Bắc</option>
+                <option value="0">Miền Nam</option>
+              </select>
+            </div>
           </div>
         </div>
       </div>
@@ -532,7 +1144,7 @@
             </ul>
           </div>
           <div class="clearfix"></div>
-          <div class="col-md-2">
+          <div class="col-md-2 col-sm-6 col-xs-6">
             <div class="btn btn-default btn-fw btn-kia">Liên hệ<i class="fa fa-angle-right"></i></div>
           </div>
           <div class="ip-hand"></div>
@@ -582,12 +1194,14 @@
       <div class="container">
         <div class="ft-brand"></div>
         <div class="row">
+          <div class="col-md-12">
           <div class="quick-link clearfix">
-            <div class="col-md-12">
+
               <ul class="list-inline">
                 <li><a href="/">Sitemap</a></li>
                 <li><a href="/">Điều khoản</a></li>
                 <li><a href="/">Liên hệ</a></li>
+                <li class="m-only" style="display:none"></li>
                 <li><a href="/">Kết nối</a></li>
                 <li class="ss-list">
                   <a href="/">
@@ -699,13 +1313,13 @@
   </div>
   <script>
     $(document).ready(function() {
-      var owl = $("#owl-demo");
+      var owl = $("#owl-demo1,#owl-demo2,#owl-demo3");
       owl.owlCarousel({
         items: 4, //10 items above 1000px browser width
         itemsDesktop: [1000, 3], //5 items between 1000px and 901px
         itemsDesktopSmall: [900, 3], // betweem 900px and 601px
         itemsTablet: [600, 2], //2 items between 600 and 0
-        itemsMobile: false // itemsMobile disabled - inherit from itemsTablet option
+        itemsMobile: [400, 2] // itemsMobile disabled - inherit from itemsTablet option
       });
       // Custom Navigation Events
       $(".next").click(function() {
@@ -736,6 +1350,10 @@
       });
     });
     $('select').selectpicker();
+    $( "#product-tabs,#menu-tabs" ).tabs({
+  hide: { effect: "drop", duration: 1000 }
+});
+
   </script>
 </body>
 </html>

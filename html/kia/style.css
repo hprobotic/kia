@@ -18,7 +18,7 @@ a:hover {
     text-decoration: none !important;
 }
 .container.wide {
-    width: 1450px;
+    max-width: 1450px;
 
 }
 .navbar-flat {
@@ -27,7 +27,7 @@ a:hover {
 .navbar-mixed {
     background: #fff;
     border-bottom: 2px solid #c4172c;
-    height: 70px;
+    min-height: 70px;
 }
 .navbar-mixed  .navbar-nav a {
     color: #333333;
@@ -78,6 +78,7 @@ h1 {
 }
 #product-slider h1 {
     text-align: center;
+    margin-bottom: 40px;
 }
 #product-slider {
     padding: 70px;
@@ -131,11 +132,11 @@ h1 {
 }
 .footer .ft-brand {
     background: url(images/footer-brand.jpg) no-repeat;
-    width: 195px;
-    height: 98px;
+    width: 159px;
+    height: 67px;
     position: absolute;
-    right: -90px;
-    bottom: -54px;
+    right: -60px;
+    bottom: -50px;
     content: '';
     z-index: 2;
 }
@@ -151,11 +152,11 @@ h1 {
 
 #demo-use {
     background: #567b92 url(images/demo-use.jpg) no-repeat top center;
--webkit-background-size: cover;
-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
     color: #fff;
     padding: 50px 0;
-    height: 580px;
+    height: 760px;
 }
 .demo-form {
     width: 487px;
@@ -172,8 +173,8 @@ background-size: cover;
 }
 .m-section#htpp {
     background: url(images/htpp.jpg) no-repeat top center;
-background-size: cover;
-    height: 619px;
+  background-size: cover;
+    height: 770px;
 }
 .m-section#dvkh {
     background: #f1f5f6;
@@ -231,7 +232,7 @@ background-size: cover;
 }
 .find-box {
     background: rgba(255,255,255,0.4);
-    width: 500px;
+    width: 550px;
     height: 200px;
     padding: 30px 45px;
 }
@@ -291,7 +292,7 @@ background-size: cover;
 }
 .nav-pills.product-cat {
   margin: 30px auto;
-  width: 430px;
+  width: 432px;
 }
 #owl-demo .item{
 
@@ -345,6 +346,9 @@ a.btn.prev {
 a.btn.next {
   right: -30px;
 }
+#main-slider {
+  padding-top: 70px;
+}
 #main-slider .item img{
     display: block;
     width: 100%;
@@ -366,10 +370,15 @@ a.btn.next {
   padding: 24px 30px;
 }
 .navbar-mixed .navbar-nav {
-  float: right;
+  width: auto;
+  margin: 0px auto;
+  width: 100%;
+  text-align: center;
 }
 .navbar-mixed .navbar-nav li {
   position: static !important;
+  float: none;
+  display: inline-block;
 }
 .navbar-mixed .wide.container {
   position: relative;
@@ -412,7 +421,7 @@ padding: 0px;
 }
 .list-product .item {
   float: left;
-  width: 200px;
+  width: 25%;
 }
 .fluid.container {
   width: 100%;
@@ -451,6 +460,9 @@ padding: 0px;
 .navbar-mixed.nav>li>a:focus,.navbar-mixed .nav>li>a:hover {
     background: #fff url(images/nav-bg.png) no-repeat bottom center;
 }
+.navbar-mixed.nav>li.brand-logo>a:focus,.navbar-mixed .nav>li.brand-logo>a:hover {
+    background: #fff url(images/nav-bg.png) no-repeat bottom center;
+}
 .bootstrap-select {
   width: 100% !important;
   margin-bottom: 15px;
@@ -476,3 +488,165 @@ padding: 0px;
   top: -6px;
   font-size: 30px;
 }
+.brand-logo a {
+  padding: 0px 12px !important;
+  height: 25px;
+
+}
+
+/* Custom Tabs */
+#product-slider .ui-widget-content {
+  background: none;
+  border-radius: 0px;
+  border: 0px solid #fff;
+}
+#product-slider .ui-widget-header {
+  background: #fff;
+  border: 0px solid #fff;
+  padding: 0px;
+  margin: 0 auto;
+}
+#product-slider .ui-tabs .ui-tabs-nav li {
+  border-radius: 0px;
+  border: 0px solid #fff;
+  margin: 0 1px;
+}
+#product-slider  .ui-state-active a,#product-slider  .ui-widget-content .ui-state-active a,#product-slider  .ui-widget-header .ui-state-active a {
+  background: #bb162b !important;
+  color: #fff !important;
+}
+#product-slider .ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+  padding: 10px 15px ;
+}
+.auto-img img {
+  display: block;
+  width: 100%;
+}
+.ui-tabs .ui-tabs-panel {
+  padding: 1em 0em;
+}
+.navbar-toggle .icon-bar {
+    background-color: #888888;
+}
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 30px;
+    height: 3px;
+    border-radius: 1px;
+}
+.navbar-toggle {
+  padding: 15px 10px;
+}
+.m-only {
+  display: none;
+}
+.slider-info {
+  position: absolute;
+  width: 410px;
+  height: 305px;
+  background: rgba(255,255,255,0.9);
+  padding: 20px;
+  bottom: 200px;
+  left: 100px;
+  font-family: "Roboto";
+}
+.slider-info h1 {
+  font-size: 29px;
+}
+.slider-info h3 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+.slider-info h3 span.price {
+  font-size: 28px;
+  font-weight: bold;
+}
+.list-q-link {
+  padding: 15px 0;
+}
+.list-q-link li a{
+  width: 40px;
+  height: 40px;
+  background: #717d91;
+  color: #fff;
+  font-size: 20px;
+  display: block;
+  border-radius: 100%;
+  text-align: center;
+  padding: 4px;
+
+}
+#main-slider .item .slider-info img {
+  width: auto;
+}
+.slider-info .btn.btn-kia {
+  font-weight: normal;
+}
+.main-slider .owl-theme .owl-controls .owl-page span {
+  width: 15px;
+  height: 15px;
+  -webkit-box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.75);
+  box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.75);
+}
+.main-slider .owl-prev {
+  background: url(images/prev-btn.png) no-repeat center !important;
+  text-indent: -9999px;
+  width: 16px !important;
+  height: 29px !important;
+
+}
+.main-slider .owl-next {
+  background: url(images/next-btn.png) no-repeat center !important;
+  width: 16px !important;
+  height: 29px !important;
+    text-indent: -9999px;
+
+}
+.owl-theme .owl-controls .owl-buttons div {
+  padding-left: 170px;
+}
+.owl-pagination {
+  position: relative;
+  bottom: -36px;
+}
+#menu-tabs .list-menu ul li {
+  display: block;
+  width: 100%;
+  background: #f9f9f9;
+  color: #666666;
+  border-radius: 0px;
+  border: 1px solid #eeeeee;
+}
+#menu-tabs .list-menu ul li a {
+  display: block;
+  width: 100%;
+}
+#menu-tabs .ui-widget-header {
+  background: #f9f9f9;
+  border: 0px solid #fff;
+  padding: 0px;
+  border-radius: 0px;
+
+}
+#menu-tabs.ui-widget-content {
+  background: none;
+  border-radius: 0px;
+  padding: 0px;
+}
+#menu-tabs.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+  float: none;
+  font-size: 14px;
+  padding: 15px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+#menu-tabs .ui-state-active, #menu-tabs .ui-widget-content .ui-state-active, #menu-tabs .ui-widget-header .ui-state-active {
+  border: 1px solid #fff;
+  background: #fff;
+  font-weight: bold !important;
+}
+#menu-tabs .ui-state-active a {
+  font-weight: bold !important;
+}
+#menu-tabs

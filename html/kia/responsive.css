@@ -1,0 +1,134 @@
+@media screen and (max-width: 62.5em) {
+/* Styles */
+.left-bar {
+  display: none;
+}
+body {
+  padding-left: 0px;
+}
+#product-slider {
+  padding: 0px;
+}
+#product-slider h1 {
+  font-size: 32px;
+}
+.nav-pills.product-cat {
+  width: 100%;
+
+}
+#product-slider .ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+  padding: 10px;
+}
+#product-slider .ui-tabs .ui-tabs-nav li {
+  width: 32.5%;
+}
+#product-slider .ui-tabs .ui-tabs-nav li a {
+  width: 100%;
+}
+#demo-use {
+  padding: 50px 0;
+  height: auto;
+  background-size: auto;
+}
+.demo-form {
+  width: 100%;
+}
+h1 {
+  font-size: 32px;
+}
+.find-box {
+  width: 100%;
+  padding: 30px 0px;
+}
+.m-section#htpp {
+  background-position: left;
+}
+.m-section#dvkh {
+  padding: 30px 0;
+}
+.ip-hand {
+  display: none;
+}
+.n-item {
+  width: 100%;
+}
+.n-item img {
+  display: block;
+  width: 40%;
+  float: left;
+}
+.n-item p {
+  position: relative;
+  padding-left: 5%;
+  background: none !important;
+  color: #333333;
+  width: 60%;
+  float: left;
+}
+.n-item {
+  margin-bottom: 20px;
+}
+#news {
+    padding: 40px 0;
+     padding-bottom: 20px;
+}
+.m-only {
+  display: block !important;
+}
+.quick-link .list-inline>li {
+  margin-bottom: 5px
+}
+.site-link {
+  display: none;
+}
+.site-copy {
+  padding: 10px 0;
+}
+.footer .ft-brand {
+  right: 0px;
+}
+.customNavigation .btn {
+  bottom: 0px;
+  top: auto;
+  font-size: 30px;
+  line-height: 1px;
+  bottom: 16px;
+}
+a.btn.prev {
+  left: 30px;
+}
+a.btn.next {
+  right: 30px;
+}
+.navbar-mixed .navbar-nav li {
+  display: block;
+  text-align: left;
+  width: 100%;
+  border-bottom: 1px solid #f7f7f8;
+}
+.navbar-mixed .navbar-nav li a {
+  padding: 10px 0;
+}
+.navbar-mixed .navbar-nav .brand-logo {
+  display: none;
+}
+.navbar-nav li:hover .sub-menu {
+  display: none;
+}
+.navbar-mixed.nav>li>a:focus, .navbar-mixed .nav>li>a:hover {
+  background: none;
+}
+.navbar-brand.m-only {
+  padding-left: 0px;
+}
+}
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    #product-slider .ui-tabs .ui-tabs-nav li a {
+      font-size: 12px;
+    }
+}
